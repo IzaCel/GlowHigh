@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD3276112A8C017100C405B8 /* GlowHighApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3276102A8C017100C405B8 /* GlowHighApp.swift */; };
+		BD3276132A8C017100C405B8 /* Welcoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3276122A8C017100C405B8 /* Welcoming.swift */; };
+		BD3276152A8C017900C405B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3276142A8C017900C405B8 /* Assets.xcassets */; };
+		BD3276182A8C017900C405B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3276172A8C017900C405B8 /* Preview Assets.xcassets */; };
+		BD3276222A8C017A00C405B8 /* GlowHighTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3276212A8C017A00C405B8 /* GlowHighTests.swift */; };
+		BD32762C2A8C017A00C405B8 /* GlowHighUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32762B2A8C017A00C405B8 /* GlowHighUITests.swift */; };
+		BD32762E2A8C017A00C405B8 /* GlowHighUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32762D2A8C017A00C405B8 /* GlowHighUITestsLaunchTests.swift */; };
+		BD32763D2A8C04C000C405B8 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32763C2A8C04C000C405B8 /* Journal.swift */; };
+		BD32763F2A8C051C00C405B8 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32763E2A8C051C00C405B8 /* Tracker.swift */; };
+		BD3637662A8E7435006A6B54 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3637652A8E7435006A6B54 /* ProfileView.swift */; };
+		BD5562772A8E8E3800942483 /* journalPgTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5562762A8E8E3800942483 /* journalPgTwo.swift */; };
+		BD55627B2A8E903900942483 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD55627A2A8E903900942483 /* Persistence.swift */; };
+		BD597ECB2A8D4609000E3D57 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD597ECA2A8D4609000E3D57 /* Homepage.swift */; };
+		BDB405FD2A8D0B98007A81DE /* onboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB405FC2A8D0B98007A81DE /* onboardingView.swift */; };
+		BDB405FF2A8D0C18007A81DE /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB405FE2A8D0C18007A81DE /* OnboardingData.swift */; };
+		BDD4CF892A8E6A3600A4500E /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD4CF882A8E6A3600A4500E /* NameView.swift */; };
+		BDD4CF8B2A8E6A7500A4500E /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD4CF8A2A8E6A7500A4500E /* Survey.swift */; };
+		BDF57AC32A8E933E0012234C /* GlowHigh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF57AC12A8E933E0012234C /* GlowHigh.xcdatamodeld */; };
+		BDF57AC62A8E94370012234C /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF57AC52A8E94370012234C /* NewToDoView.swift */; };
+		BDF57AC82A8E945A0012234C /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF57AC72A8E945A0012234C /* ToDoItem.swift */; };
+		BDF57ACA2A8E946E0012234C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF57AC92A8E946E0012234C /* Task.swift */; };
+		BDF57ACC2A8E94960012234C /* ActualCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF57ACB2A8E94960012234C /* ActualCalendarApp.swift */; };
+		BDF57ACE2A8E94AC0012234C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF57ACD2A8E94AC0012234C /* ContentView.swift */; };
+		BDF57AD02A8E94C60012234C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF57ACF2A8E94C60012234C /* Home.swift */; };
+		BDF57AD22A8E94E10012234C /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF57AD12A8E94E10012234C /* CustomDatePicker.swift */; };
+		BDF57AD42A8E94FA0012234C /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF57AD32A8E94FA0012234C /* DateValue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD32761E2A8C017A00C405B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3276052A8C017100C405B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD32760C2A8C017100C405B8;
+			remoteInfo = GlowHigh;
+		};
+		BD3276282A8C017A00C405B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3276052A8C017100C405B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD32760C2A8C017100C405B8;
+			remoteInfo = GlowHigh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD32760D2A8C017100C405B8 /* GlowHigh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowHigh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3276102A8C017100C405B8 /* GlowHighApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowHighApp.swift; sourceTree = "<group>"; };
+		BD3276122A8C017100C405B8 /* Welcoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcoming.swift; sourceTree = "<group>"; };
+		BD3276142A8C017900C405B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD3276172A8C017900C405B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD32761D2A8C017A00C405B8 /* GlowHighTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowHighTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3276212A8C017A00C405B8 /* GlowHighTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowHighTests.swift; sourceTree = "<group>"; };
+		BD3276272A8C017A00C405B8 /* GlowHighUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowHighUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD32762B2A8C017A00C405B8 /* GlowHighUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowHighUITests.swift; sourceTree = "<group>"; };
+		BD32762D2A8C017A00C405B8 /* GlowHighUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowHighUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD32763C2A8C04C000C405B8 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		BD32763E2A8C051C00C405B8 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		BD3637652A8E7435006A6B54 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BD5562762A8E8E3800942483 /* journalPgTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalPgTwo.swift; sourceTree = "<group>"; };
+		BD55627A2A8E903900942483 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD597ECA2A8D4609000E3D57 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		BDB405FC2A8D0B98007A81DE /* onboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingView.swift; sourceTree = "<group>"; };
+		BDB405FE2A8D0C18007A81DE /* OnboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
+		BDD4CF882A8E6A3600A4500E /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		BDD4CF8A2A8E6A7500A4500E /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		BDF57AC22A8E933E0012234C /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		BDF57AC52A8E94370012234C /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BDF57AC72A8E945A0012234C /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BDF57AC92A8E946E0012234C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BDF57ACB2A8E94960012234C /* ActualCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualCalendarApp.swift; sourceTree = "<group>"; };
+		BDF57ACD2A8E94AC0012234C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDF57ACF2A8E94C60012234C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BDF57AD12A8E94E10012234C /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		BDF57AD32A8E94FA0012234C /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD32760A2A8C017100C405B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32761A2A8C017A00C405B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3276242A8C017A00C405B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD3276042A8C017100C405B8 = {
+			isa = PBXGroup;
+			children = (
+				BD32760F2A8C017100C405B8 /* GlowHigh */,
+				BD3276202A8C017A00C405B8 /* GlowHighTests */,
+				BD32762A2A8C017A00C405B8 /* GlowHighUITests */,
+				BD32760E2A8C017100C405B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD32760E2A8C017100C405B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD32760D2A8C017100C405B8 /* GlowHigh.app */,
+				BD32761D2A8C017A00C405B8 /* GlowHighTests.xctest */,
+				BD3276272A8C017A00C405B8 /* GlowHighUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD32760F2A8C017100C405B8 /* GlowHigh */ = {
+			isa = PBXGroup;
+			children = (
+				BD3276102A8C017100C405B8 /* GlowHighApp.swift */,
+				BD3276122A8C017100C405B8 /* Welcoming.swift */,
+				BDB405FE2A8D0C18007A81DE /* OnboardingData.swift */,
+				BDB405FC2A8D0B98007A81DE /* onboardingView.swift */,
+				BDD4CF882A8E6A3600A4500E /* NameView.swift */,
+				BDD4CF8A2A8E6A7500A4500E /* Survey.swift */,
+				BD597ECA2A8D4609000E3D57 /* Homepage.swift */,
+				BD32763C2A8C04C000C405B8 /* Journal.swift */,
+				BD5562762A8E8E3800942483 /* journalPgTwo.swift */,
+				BD55627A2A8E903900942483 /* Persistence.swift */,
+				BD32763E2A8C051C00C405B8 /* Tracker.swift */,
+				BD3637652A8E7435006A6B54 /* ProfileView.swift */,
+				BDF57AC42A8E940C0012234C /* Calendar */,
+				BDF57AC12A8E933E0012234C /* GlowHigh.xcdatamodeld */,
+				BD3276142A8C017900C405B8 /* Assets.xcassets */,
+				BD3276162A8C017900C405B8 /* Preview Content */,
+			);
+			path = GlowHigh;
+			sourceTree = "<group>";
+		};
+		BD3276162A8C017900C405B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD3276172A8C017900C405B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD3276202A8C017A00C405B8 /* GlowHighTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD3276212A8C017A00C405B8 /* GlowHighTests.swift */,
+			);
+			path = GlowHighTests;
+			sourceTree = "<group>";
+		};
+		BD32762A2A8C017A00C405B8 /* GlowHighUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD32762B2A8C017A00C405B8 /* GlowHighUITests.swift */,
+				BD32762D2A8C017A00C405B8 /* GlowHighUITestsLaunchTests.swift */,
+			);
+			path = GlowHighUITests;
+			sourceTree = "<group>";
+		};
+		BDF57AC42A8E940C0012234C /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				BDF57AC52A8E94370012234C /* NewToDoView.swift */,
+				BDF57AC72A8E945A0012234C /* ToDoItem.swift */,
+				BDF57AC92A8E946E0012234C /* Task.swift */,
+				BDF57ACB2A8E94960012234C /* ActualCalendarApp.swift */,
+				BDF57ACD2A8E94AC0012234C /* ContentView.swift */,
+				BDF57ACF2A8E94C60012234C /* Home.swift */,
+				BDF57AD12A8E94E10012234C /* CustomDatePicker.swift */,
+				BDF57AD32A8E94FA0012234C /* DateValue.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD32760C2A8C017100C405B8 /* GlowHigh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3276312A8C017A00C405B8 /* Build configuration list for PBXNativeTarget "GlowHigh" */;
+			buildPhases = (
+				BD3276092A8C017100C405B8 /* Sources */,
+				BD32760A2A8C017100C405B8 /* Frameworks */,
+				BD32760B2A8C017100C405B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlowHigh;
+			productName = GlowHigh;
+			productReference = BD32760D2A8C017100C405B8 /* GlowHigh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD32761C2A8C017A00C405B8 /* GlowHighTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3276342A8C017A00C405B8 /* Build configuration list for PBXNativeTarget "GlowHighTests" */;
+			buildPhases = (
+				BD3276192A8C017A00C405B8 /* Sources */,
+				BD32761A2A8C017A00C405B8 /* Frameworks */,
+				BD32761B2A8C017A00C405B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD32761F2A8C017A00C405B8 /* PBXTargetDependency */,
+			);
+			name = GlowHighTests;
+			productName = GlowHighTests;
+			productReference = BD32761D2A8C017A00C405B8 /* GlowHighTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD3276262A8C017A00C405B8 /* GlowHighUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3276372A8C017A00C405B8 /* Build configuration list for PBXNativeTarget "GlowHighUITests" */;
+			buildPhases = (
+				BD3276232A8C017A00C405B8 /* Sources */,
+				BD3276242A8C017A00C405B8 /* Frameworks */,
+				BD3276252A8C017A00C405B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD3276292A8C017A00C405B8 /* PBXTargetDependency */,
+			);
+			name = GlowHighUITests;
+			productName = GlowHighUITests;
+			productReference = BD3276272A8C017A00C405B8 /* GlowHighUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD3276052A8C017100C405B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BD32760C2A8C017100C405B8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BD32761C2A8C017A00C405B8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BD32760C2A8C017100C405B8;
+					};
+					BD3276262A8C017A00C405B8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BD32760C2A8C017100C405B8;
+					};
+				};
+			};
+			buildConfigurationList = BD3276082A8C017100C405B8 /* Build configuration list for PBXProject "GlowHigh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD3276042A8C017100C405B8;
+			productRefGroup = BD32760E2A8C017100C405B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD32760C2A8C017100C405B8 /* GlowHigh */,
+				BD32761C2A8C017A00C405B8 /* GlowHighTests */,
+				BD3276262A8C017A00C405B8 /* GlowHighUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD32760B2A8C017100C405B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3276182A8C017900C405B8 /* Preview Assets.xcassets in Resources */,
+				BD3276152A8C017900C405B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32761B2A8C017A00C405B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3276252A8C017A00C405B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3276092A8C017100C405B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF57AC32A8E933E0012234C /* GlowHigh.xcdatamodeld in Sources */,
+				BDF57ACE2A8E94AC0012234C /* ContentView.swift in Sources */,
+				BDF57AC82A8E945A0012234C /* ToDoItem.swift in Sources */,
+				BD55627B2A8E903900942483 /* Persistence.swift in Sources */,
+				BDD4CF8B2A8E6A7500A4500E /* Survey.swift in Sources */,
+				BDB405FD2A8D0B98007A81DE /* onboardingView.swift in Sources */,
+				BDF57ACA2A8E946E0012234C /* Task.swift in Sources */,
+				BDF57AC62A8E94370012234C /* NewToDoView.swift in Sources */,
+				BD3276132A8C017100C405B8 /* Welcoming.swift in Sources */,
+				BDD4CF892A8E6A3600A4500E /* NameView.swift in Sources */,
+				BDB405FF2A8D0C18007A81DE /* OnboardingData.swift in Sources */,
+				BD32763F2A8C051C00C405B8 /* Tracker.swift in Sources */,
+				BDF57AD02A8E94C60012234C /* Home.swift in Sources */,
+				BD3637662A8E7435006A6B54 /* ProfileView.swift in Sources */,
+				BD597ECB2A8D4609000E3D57 /* Homepage.swift in Sources */,
+				BD5562772A8E8E3800942483 /* journalPgTwo.swift in Sources */,
+				BDF57AD22A8E94E10012234C /* CustomDatePicker.swift in Sources */,
+				BD3276112A8C017100C405B8 /* GlowHighApp.swift in Sources */,
+				BDF57AD42A8E94FA0012234C /* DateValue.swift in Sources */,
+				BD32763D2A8C04C000C405B8 /* Journal.swift in Sources */,
+				BDF57ACC2A8E94960012234C /* ActualCalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3276192A8C017A00C405B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3276222A8C017A00C405B8 /* GlowHighTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3276232A8C017A00C405B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD32762E2A8C017A00C405B8 /* GlowHighUITestsLaunchTests.swift in Sources */,
+				BD32762C2A8C017A00C405B8 /* GlowHighUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD32761F2A8C017A00C405B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD32760C2A8C017100C405B8 /* GlowHigh */;
+			targetProxy = BD32761E2A8C017A00C405B8 /* PBXContainerItemProxy */;
+		};
+		BD3276292A8C017A00C405B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD32760C2A8C017100C405B8 /* GlowHigh */;
+			targetProxy = BD3276282A8C017A00C405B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD32762F2A8C017A00C405B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD3276302A8C017A00C405B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD3276322A8C017A00C405B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlowHigh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.GlowHigh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD3276332A8C017A00C405B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlowHigh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.GlowHigh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD3276352A8C017A00C405B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.GlowHighTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlowHigh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlowHigh";
+			};
+			name = Debug;
+		};
+		BD3276362A8C017A00C405B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.GlowHighTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlowHigh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlowHigh";
+			};
+			name = Release;
+		};
+		BD3276382A8C017A00C405B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.GlowHighUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlowHigh;
+			};
+			name = Debug;
+		};
+		BD3276392A8C017A00C405B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.GlowHighUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlowHigh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3276082A8C017100C405B8 /* Build configuration list for PBXProject "GlowHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD32762F2A8C017A00C405B8 /* Debug */,
+				BD3276302A8C017A00C405B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3276312A8C017A00C405B8 /* Build configuration list for PBXNativeTarget "GlowHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3276322A8C017A00C405B8 /* Debug */,
+				BD3276332A8C017A00C405B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3276342A8C017A00C405B8 /* Build configuration list for PBXNativeTarget "GlowHighTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3276352A8C017A00C405B8 /* Debug */,
+				BD3276362A8C017A00C405B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3276372A8C017A00C405B8 /* Build configuration list for PBXNativeTarget "GlowHighUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3276382A8C017A00C405B8 /* Debug */,
+				BD3276392A8C017A00C405B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF57AC12A8E933E0012234C /* GlowHigh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF57AC22A8E933E0012234C /* CoreData.xcdatamodel */,
+			);
+			currentVersion = BDF57AC22A8E933E0012234C /* CoreData.xcdatamodel */;
+			path = GlowHigh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD3276052A8C017100C405B8 /* Project object */;
+}
